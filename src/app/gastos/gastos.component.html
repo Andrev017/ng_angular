@@ -1,0 +1,13 @@
+
+<div class="caja-lista">
+    <ul>
+        @for (gasto of gastos; track gasto) {
+        <li>
+        <p>{{ gasto.nombre }}</p>
+        <div>
+            <span>{{ gasto.cantidad }} Bs</span>
+        </div>
+        </li>
+        }
+    </ul>
+</div>
